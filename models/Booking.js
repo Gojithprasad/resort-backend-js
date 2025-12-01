@@ -3,7 +3,6 @@ const mongoose = require("mongoose");
 const bookingSchema = new mongoose.Schema({
   villa: {
     type: String,
-    enum: ["sunset", "forest", "hillside"],
     required: true
   },
 
